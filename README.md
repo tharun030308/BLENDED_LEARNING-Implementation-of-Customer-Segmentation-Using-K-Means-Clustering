@@ -9,11 +9,10 @@ To implement customer segmentation using K-Means clustering on the Mall Customer
 2. Anaconda – Python 3.7 Installation / Jupyter notebook
 
 ## Algorithm
-1. 
-2. 
-3. 
-4. 
-
+1. Import the required libraries, load the dataset, and select relevant features for clustering.<br/>
+2. Standardize the data using StandardScaler and determine the optimal number of clusters using the Elbow method.<br/>
+3. Apply the K-Means clustering algorithm to group customers into clusters.<br/>
+4. Evaluate the clustering using silhouette score and visualize the customer segments using a scatter plo
 ## Program:
 ```
 import pandas as pd
